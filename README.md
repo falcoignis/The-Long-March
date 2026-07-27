@@ -22,7 +22,7 @@
 
 ## Intended listening contexts
 
-Driving, camping, outdoor work, lifting, homelab work, Minecraft, and sustained focus.
+Driving, camping, outdoor work, homelab work, Minecraft, and sustained focus.
 
 ## Repository map
 
