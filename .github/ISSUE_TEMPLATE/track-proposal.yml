@@ -1,0 +1,56 @@
+name: Track proposal
+description: Propose a verified Spotify track for The Long March
+title: "[Track] "
+labels:
+  - track proposal
+body:
+  - type: input
+    id: artist
+    attributes:
+      label: Artist
+    validations:
+      required: true
+  - type: input
+    id: track
+    attributes:
+      label: Track
+    validations:
+      required: true
+  - type: input
+    id: spotify
+    attributes:
+      label: Spotify URL
+    validations:
+      required: true
+  - type: dropdown
+    id: chapter
+    attributes:
+      label: Suggested chapter
+      options:
+        - Smoke on the Horizon
+        - The Gathering
+        - The Oath
+        - The Long March
+        - Enemy Soil
+        - First Blood
+        - Raise the Banner
+        - The Siege
+        - Ragnarök
+        - The Quiet Dead
+        - Home
+        - Epilogue
+        - Unsure
+    validations:
+      required: true
+  - type: textarea
+    id: case
+    attributes:
+      label: Why does it earn a place?
+      description: Explain its emotional role, transition value, and what it adds.
+    validations:
+      required: true
+  - type: textarea
+    id: transitions
+    attributes:
+      label: Transition ideas
+      description: Suggest tracks that should lead into and out of it.
