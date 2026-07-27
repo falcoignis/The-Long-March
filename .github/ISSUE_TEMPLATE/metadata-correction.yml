@@ -1,0 +1,31 @@
+name: Metadata correction
+description: Correct a missing or inaccurate Spotify entry
+title: "[Metadata] "
+labels:
+  - metadata
+body:
+  - type: input
+    id: current
+    attributes:
+      label: Current artist and title
+    validations:
+      required: true
+  - type: input
+    id: corrected
+    attributes:
+      label: Correct Spotify artist and title
+    validations:
+      required: true
+  - type: input
+    id: spotify
+    attributes:
+      label: Spotify URL
+    validations:
+      required: true
+  - type: textarea
+    id: explanation
+    attributes:
+      label: Explanation
+      description: Note whether this is punctuation, alternate crediting, a different release, or a replacement.
+    validations:
+      required: true
